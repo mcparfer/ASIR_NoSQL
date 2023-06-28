@@ -1,0 +1,9 @@
+mongoexport -d test -c autoitems --out autoitems1.json
+mongoimport --uri mongodb+srv://usuario1:IAMSHERLOCKED@cluster0.rmq7x.mongodb.net/test --collection autoitems1 --type json --file autoitems1.json
+
+mongoexport --uri mongodb+srv://usuario1:IAMSHERLOCKED@cluster0.rmq7x.mongodb.net/test --collection autoitems --type json --out autoitems.json
+mongoimport -d test -c autoitemscopia --file C:\Users\maric\Desktop\autoitems.json
+
+
+mongoexport -d test -c orders --out C:\Users\maric\Documents\orders.json
+mongoimport --uri mongodb+srv://usuario1:IAMSHERLOCKED@cluster0.rmq7x.mongodb.net/test --collection test --type json --file autoitems1

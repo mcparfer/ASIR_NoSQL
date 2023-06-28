@@ -1,0 +1,9 @@
+_id,bookingID,customerContactName,customerContactPhone,moneyPaid,moneyRefund,refundPercentage
+ObjectId(6223f867ae40950c77992a78),24,Luca Watson,+44 07920036566,170,170,100
+ObjectId(6223f867ae40950c77992a79),20,Sawat Shimma,+66 6622821717,2160,1620,75
+ObjectId(6223f867ae40950c77992a7a),27,Descole Chartier,+33 044330197,108.5,81.375,75
+ObjectId(6223f867ae40950c77992a7b),21,Mario Hurtado,+34 679899416,1715,1286.25,75
+ObjectId(6223f867ae40950c77992a7c),22,Benigno Sabbatini,+39 03725661163,225,225,100
+ObjectId(6223f867ae40950c77992a7d),26,Gifford Lacroix,+33 0199228695,2520,1890,75
+ObjectId(6223f867ae40950c77992a7e),25,Antonino Contreras,+34 650503023,2480,2480,100
+ObjectId(6223f867ae40950c77992a7f),23,Carla Carmona,+34 619735011,142.5,142.5,100

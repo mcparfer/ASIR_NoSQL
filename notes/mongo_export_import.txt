@@ -1,0 +1,8 @@
+Example:
+
+mongoexport -d test -c orders --out C:\Users\maric\Documents\orders.json
+mongoexport -d test -c cities --type csv --fields LatD,LatM,LatS,NS,LonD,LonM,LonS,EW,City,State --out ciudades.csv
+
+mongoimport -d test -c orders1 --file C:\Users\maric\Documents\orders1.json
+mongoimport -d test -c cities --fields LatD,LatM,LatS,NS,LonD,LonM,LonS,EW,City,State --type csv --file C:\Users\maric\Downloads\cities.csv
+mongoimport -d test -c cities --type csv --headerline --file ciudades.csv

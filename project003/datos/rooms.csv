@@ -1,0 +1,11 @@
+_id,description,roomsQty,maxCapacity,dailyPrice,tv
+ST1A,Standart,20,1,30,false
+ST1B,Standart,50,1,35,true
+ST2A,Standart,50,2,45,false
+ST2B,Standart,100,2,55,true
+SS4A,Standart,50,4,70,false
+ST4B,Standart,100,4,90,true
+LX1,Luxury,100,1,120,true
+LX2,Luxury,150,2,160,true
+LX4,Luxury,100,2,220,true
+PRESUITE,Presidential Suite,5,4,450,true
