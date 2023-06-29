@@ -1,12 +1,12 @@
 PARA MONGO ATLAS:
 
-	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection bookings --type json --out C:\Users\maric\Documents\bookings.json
+	mongoexport --uri mongodb [URI] --collection bookings --type json --out C:\Users\maric\Documents\bookings.json
 
-	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection bookings --type csv --fields _id,customerID,checkinDate,checkoutDate,bookingDate,rooms,coupon,atCharge --out C:\Users\maric\Documents\bookings.csv
+	mongoexport --uri mongodb [URI] --collection bookings --type csv --fields _id,customerID,checkinDate,checkoutDate,bookingDate,rooms,coupon,atCharge --out C:\Users\maric\Documents\bookings.csv
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection bookings1 --type json --file C:\Users\maric\Documents\bookings.json
+	mongoimport --uri mongodb [URI] --collection bookings1 --type json --file C:\Users\maric\Documents\bookings.json
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection bookings2 --type csv --headerline --file C:\Users\maric\Documents\bookings.csv
+	mongoimport --uri mongodb [URI] --collection bookings2 --type csv --headerline --file C:\Users\maric\Documents\bookings.csv
 
 PARA USO LOCAL:
 	
@@ -23,30 +23,25 @@ COMANDOS USADOS PARA EXPORTAR LOS CSV DE LA CARPETA:
 
 	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection bookings --type csv --fields _id,customerID,checkinDate,checkoutDate,bookingDate,rooms,coupon,atCharge --out C:\Users\maric\Documents\bookings.csv
 
-	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection rooms --type csv --fields _id,description,roomsQty,maxCapacity,dailyPrice,tv --out C:\Users\maric\Documents\rooms.csv 
+	mongoexport --uri mongodb [URI] --collection rooms --type csv --fields _id,description,roomsQty,maxCapacity,dailyPrice,tv --out C:\Users\maric\Documents\rooms.csv 
 
-	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection customers --type csv --fields _id,contactName,contactPhone,nationality,data --out C:\Users\maric\Documents\customers.csv
+	mongoexport --uri mongodb [URI] --collection customers --type csv --fields _id,contactName,contactPhone,nationality,data --out C:\Users\maric\Documents\customers.csv
 
-	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection reviews --type csv --fields _id,bookingID,customerID,satisfaction,tags --out C:\Users\maric\Documents\reviews.csv
+	mongoexport --uri mongodb [URI] --collection reviews --type csv --fields _id,bookingID,customerID,satisfaction,tags --out C:\Users\maric\Documents\reviews.csv
 
-	mongoexport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection refunds --type csv --fields _id,bookingID,customerContactName,customerContactPhone,moneyPaid,moneyRefund,refundPercentage --out C:\Users\maric\Documents\refunds.csv
+	mongoexport --uri mongodb [URI] --collection refunds --type csv --fields _id,bookingID,customerContactName,customerContactPhone,moneyPaid,moneyRefund,refundPercentage --out C:\Users\maric\Documents\refunds.csv
 
 
 COMANDOS QUE USARIAMOS PARA IMPORTAR LOS CSV DE LA CARPETA:
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection bookings --type csv --headerline --file C:\Users\maric\Documents\bookings.csv
+	mongoimport --uri mongodb [URI] --collection bookings --type csv --headerline --file C:\Users\maric\Documents\bookings.csv
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection rooms --type csv --headerline --file C:\Users\maric\Documents\rooms.csv
+	mongoimport --uri mongodb [URI] --collection rooms --type csv --headerline --file C:\Users\maric\Documents\rooms.csv
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection customers --type csv --headerline --file C:\Users\maric\Documents\customers.csv
+	mongoimport --uri mongodb [URI] --collection customers --type csv --headerline --file C:\Users\maric\Documents\customers.csv
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection reviews --type csv --headerline --file C:\Users\maric\Documents\reviews.csv
+	mongoimport --uri mongodb [URI] --collection reviews --type csv --headerline --file C:\Users\maric\Documents\reviews.csv
 
-	mongoimport --uri mongodb+srv://usuario1:usuario1@cluster0.rmq7x.mongodb.net/proyecto --collection refunds --type csv --headerline --file C:\Users\maric\Documents\refunds.csv
-
-
-BASE MONGO ATLAS:
-
-	https://cloud.mongodb.com/v2/620b929b04e3e54ffbf97f32#clusters
+	mongoimport --uri mongodb [URI] --collection refunds --type csv --headerline --file C:\Users\maric\Documents\refunds.csv
 
 	
